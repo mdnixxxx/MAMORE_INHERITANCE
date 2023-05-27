@@ -7,4 +7,9 @@ public class FandangoYacht extends U_2_Spy_Plane{
 	void Float() {
 		System.out.println("The boat is sailing.");
 	}
+	
+	@Override
+	void stop() {
+		System.out.println("The voyage ended.");
+	}
 }
